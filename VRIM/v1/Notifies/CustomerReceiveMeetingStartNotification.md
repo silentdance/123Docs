@@ -13,7 +13,7 @@
 
 
 # 身份认证
-[加固接口的签名验证](../Agreement/StongValidation.md)
+[加固接口的签名验证](../Agreement/StrongValidation.md)
 
 
 # 请求头
