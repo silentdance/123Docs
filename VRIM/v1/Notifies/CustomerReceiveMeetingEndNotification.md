@@ -17,7 +17,7 @@
 
 # 身份认证
 
-[加固接口的签名验证](../Agreement/StrongValidation.md)
+[加固接口的签名验证](../Agreement/StongValidation.md)
 
 
 # 请求头
@@ -58,7 +58,7 @@
 | 字段名  | 可空 | 数据类型 | 描述                                         |
 | ------- | ---- | -------- | -------------------------------------------- |
 | state   | No   | Int      | [返回状态](../Agreement/APIResponseState.md) |
-| mespayloadsage | No   | String   | 错误代码或Message                            |
+| message | No   | String   | 错误代码或Message                            |
 
 ## Schema 
 

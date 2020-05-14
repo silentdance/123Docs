@@ -42,12 +42,12 @@
 
 ## Schema
 ```json
-	{
-	    "state": 200,
-	    "payload": {
-	        "id": "707fc88e14d34076b827df8fd758887b",
-	        "taskState": 50000,
-	    }
+{
+    "state": 200,
+    "payload": {
+        "id": "707fc88e14d34076b827df8fd758887b",
+        "taskState": 50000,
+    }
 }
 ```
 

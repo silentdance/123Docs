@@ -16,7 +16,7 @@
 
 # 身份认证
 
-[加固接口的签名验证](../Agreement/StrongValidation.md)
+[加固接口的签名验证](../Agreement/StongValidation.md)
 
 
 # 请求头
@@ -33,10 +33,9 @@
 | ---------- | ---- | ----------- | ---------------------- |
 | packageId  | No   | string(128) | 数据包id               |
 | meetingId  | No   | int         | 123定义的会议id        |
-| joinTime   | No   | DateTime    | 参与者的加入时间       |
+| JoinTime   | No   | DateTime    | 参与者的加入时间       |
 | user       | No   | string(32)  | 该参与者的用户id       |
 | isFirstOne | No   | bool        | 加入的是否是第一个用户 |
-| meetingStatus | No   | int      | 0:会议未开始；1：进行中；2：已结束；3：无人接听；4：呼叫方主动取消 |
 
 
 # 正确响应
@@ -60,7 +59,7 @@
 | 字段名  | 可空 | 数据类型 | 描述                                         |
 | ------- | ---- | -------- | -------------------------------------------- |
 | state   | No   | Int      | [返回状态](../Agreement/APIResponseState.md) |
-| payload | No   | String   | 错误代码或Message                            |
+| message | No   | String   | 错误代码或Message                            |
 
 ## Schema 
 
