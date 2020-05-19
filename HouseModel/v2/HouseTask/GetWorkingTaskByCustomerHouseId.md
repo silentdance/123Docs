@@ -37,7 +37,7 @@
 | payload[x] | No | Array | 未完结的任务列表 |
 | payload[x].customerHouseId| No | String | 客户的房源ID |
 | Payload[x].packageId | No | String | 数据包ID，当任务状态为非完结时，同一个customerHouseId对应的PackageId是恒定的。 |
-| payload[x].taskState | No | String | [任务状态](Agreement/TaskState.md) |
+| payload[x].taskState | No | String | [任务状态](../Agreement/TaskState.md) |
 
 
 ## Schema

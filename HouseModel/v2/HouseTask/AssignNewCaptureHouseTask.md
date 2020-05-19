@@ -47,7 +47,7 @@
 | payload.customerHouseId | No | string(64) | 客户的房源ID |
 | payload.packageId | No | string(128) | 数据包ID，当任务状态为非完结时，同一个customerHouseId对应的PackageId是恒定的。 |
 | payload.serviceId | No | Int | 客户的服务ID |
-| payload.taskState | No | Int | [任务状态](Agreement/TaskState.md) |
+| payload.taskState | No | Int | [任务状态](../Agreement/TaskState.md) |
 
 
 
