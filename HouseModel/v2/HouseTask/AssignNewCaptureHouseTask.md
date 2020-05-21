@@ -32,10 +32,10 @@
 | houseName | No | String(128) | 房源名 |
 | customerHouseId | No | String(64) | 客户的房源ID |
 | serviceId | No | String(32) | 客户的服务ID |
-| additionalData | No | String(1024) | 房源名 |
-| cityId | No | String(32) | 城市ID |
-| houseType | No | String(32) | 房源类型 |
-| layout | No | String(64) | 户型信息，x室x厅x卫 |
+| additionalData | Yes | String(1024) | 用来存放一些非标准的额外数据（json），一般用不到参数。 |
+| cityId | Yes | String(32) | 客户的城市ID |
+| houseType | Yes | String(32) | 客户的房源类型 |
+| layout | Yes | String(64) | 客户的户型信息，x室x厅x卫 |
 
 # 正确响应
 | 字段名 | 可空 | 数据类型 | 描述 |
