@@ -36,6 +36,8 @@
 | status | Yes | Int | 房源的状态，可以填写多个，多个可以使用同一个key不同的值，例如status=0&status=10000 |
 | stateStart | Yes | Int | 和stateEnd配合使用，限定查询任务的状态的最小值 |
 | stateEnd | Yes | Int | 和stateStart配合使用, 限定查询任务的状态的最大值 |
+| showNotifyType | Yes | String(32) | 指定通知结果的类型（推自己，推家装，推平台等，默认是推自己），只有Field中指定了NotifyResult后该参数才会生效。 |
+| NotifyResult | Yes | Int | 按推送结果筛选数据（会结合showNotifyType匹配推送结果），只有Field中指定了NotifyResult后该参数才会生效。不传：不做筛选，-1：未创建拍摄任务，-0：等待推送，1：推送成功，2：推送失败，3：推送异常 |
 | createStart | Yes | DateTime | 和endDate配合使用，限定任务创建时间的最小值 |
 | createEnd | Yes | DateTime | 和startData配合使用, 限定任务创建时间的最大值 |
 | modifyStart | Yes | DateTime | 和modifyEndDate配合使用，限定任务修改时间的最大值 |
