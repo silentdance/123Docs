@@ -7,7 +7,7 @@
 测试：http://test.webapi.123kanfang.com:5000/v2/houseTask/GetWorkingTaskByCustomerHouseId
 
 # Method
-**Post with Form**
+**Get**
 
 # 身份认证
 | 位置| 参数名 | 可空 | 参数类型 | 描述 |

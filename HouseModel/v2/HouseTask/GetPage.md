@@ -33,6 +33,7 @@
 | userId | Yes | String(32) | 摄影师ID（精确匹配） |
 | billOwnerId | Yes | String(32) | 账单人ID（精确匹配） |
 | serviceId | Yes | String(32) | 服务ID（精确匹配） |
+| packageId | Yes | String(64) | 数据包的ID，可以填写多个，多个可以使用同一个key不同的值，例如packageId=xxxxxx&packageId=xxxxxxx | 
 | status | Yes | Int | 房源的状态，可以填写多个，多个可以使用同一个key不同的值，例如status=0&status=10000 |
 | stateStart | Yes | Int | 和stateEnd配合使用，限定查询任务的状态的最小值 |
 | stateEnd | Yes | Int | 和stateStart配合使用, 限定查询任务的状态的最大值 |
@@ -91,7 +92,7 @@
 * UploadTime DESC | UploadTime ASC
 * LastModifyTime DESC | LastModifyTime ASC
 
-# 正确响应
+# 正确响应tod
 | 字段名 | 可空 | 数据类型 | 描述 |
 | ---- | ---- | ---- | ----|
 | state | No | Int | [返回状态](../Agreement/APIResponseState.md) | 
