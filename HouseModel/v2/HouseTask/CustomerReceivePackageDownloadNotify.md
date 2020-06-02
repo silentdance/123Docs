@@ -19,7 +19,7 @@
 # 请求头
 | 参数 | 可空 | 参数类型 | 描述 |
 | ---- | ---- | ---- | ----|
-| Content-Type | No | String | 10进制unix时间戳。 |
+| Content-Type | No | String | x-www-form-urlencoded |
 | sign | Yes | String | 根据[加固接口的签名验证](../Agreement/StongValidation.md)规则生成出来的签名。| 
 
 
