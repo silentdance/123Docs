@@ -129,7 +129,7 @@
 | payload.rows[x].path| Yes | String(255) | 用户ID |
 | payload.rows[x].userId| Yes | String(255) | 用户ID |
 | payload.rows[x].userName| Yes | String(255) | 用户名 |
-| payload.rows[x].systemComments| Yes | String(255) | 系统备注 |
+| payload.rows[x].Comments| Yes | String(255) | 系统备注 |
 | payload.rows[x].notifyResult| Yes | String(255) | 通知状态（通知客户自己的） |
 
 ## Schema
@@ -153,7 +153,7 @@
                 "uploadTime": "2020-03-18T03:28:54",
                 "userComments": null,
                 "userId": "de2ffbb7787744248194120a76ec92ac",
-                "systemComments": null
+                "comments": null
             },
             {
                 "bucket": "vrhouse-test",
@@ -169,7 +169,7 @@
                 "uploadTime": "2020-03-17T09:26:53",
                 "userComments": null,
                 "userId": "de2ffbb7787744248194120a76ec92ac",
-                "systemComments": null
+                "comments": null
             }
         ]
     }
