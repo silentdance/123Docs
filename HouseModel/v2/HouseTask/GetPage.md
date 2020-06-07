@@ -129,7 +129,7 @@
 | payload.rows[x].path| Yes | String(255) | 用户ID |
 | payload.rows[x].userId| Yes | String(255) | 用户ID |
 | payload.rows[x].userName| Yes | String(255) | 用户名 |
-| payload.rows[x].Comments| Yes | String(255) | 系统备注 |
+| payload.rows[x].comments| Yes | String(255) | 系统备注 |
 | payload.rows[x].notifyResult| Yes | String(255) | 通知状态（通知客户自己的） |
 
 ## Schema
