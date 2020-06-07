@@ -80,7 +80,7 @@
 * CityId
 * HouseType
 * PackageVersion
-* SystemComments (低性能)
+* Comments (低性能)
 * NotifyResult (低性能)
 * UserName (低性能)
 
