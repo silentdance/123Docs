@@ -10,6 +10,8 @@
 
 ## 制作完成后[可选]
 * [指定客户审核结果](./CustomerAssignReviewResult.md) [可选]
+* [废弃某个数据包](./RetireHouseTask.md) [可选]
+
 
 ## 制作完成后的数据包推送
 * [创建通知任务](./AddNewNotifyTaskByPackageID.md)
