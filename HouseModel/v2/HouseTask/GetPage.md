@@ -81,6 +81,7 @@
 * CityId
 * HouseType
 * PackageVersion
+* Domain
 * Comments (低性能)
 * NotifyResult (低性能)
 * UserName (低性能)
@@ -133,6 +134,7 @@
 | payload.rows[x].userName| Yes | String(255) | 用户名 |
 | payload.rows[x].comments| Yes | String(255) | 系统备注 |
 | payload.rows[x].notifyResult| Yes | String(255) | 通知状态（通知客户自己的） |
+| payload.rows[x].domain| Yes | String(255) | 数据包的Domain |
 
 ## Schema
 ```json
@@ -156,7 +158,8 @@
                 "captureTime" : "2020-03-18T03:28:54",
                 "userComments": null,
                 "userId": "de2ffbb7787744248194120a76ec92ac",
-                "comments": null
+                "comments": null,
+                "domain": "www.123kanfang.com"
             },
             {
                 "bucket": "vrhouse-test",
@@ -173,7 +176,8 @@
                 "captureTime" : "2020-03-18T03:28:54",
                 "userComments": null,
                 "userId": "de2ffbb7787744248194120a76ec92ac",
-                "comments": null
+                "comments": null,
+                "domain": "www.123kanfang.com"
             }
         ]
     }
