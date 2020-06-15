@@ -28,7 +28,7 @@
 | 字段名 | 可空 | 数据类型 | 描述 |
 | ---- | ---- | ---- | ----|
 | userName | Yes | String(32) | 摄影师的用户名（模糊匹配） |
-| houeName | Yes | String(32) | 房源名（模糊匹配） |
+| houseName | Yes | String(32) | 房源名（模糊匹配） |
 | customerHouseId | Yes | String(32) | 客户房源ID（精确匹配） |
 | userId | Yes | String(32) | 摄影师ID（精确匹配） |
 | billOwnerId | Yes | String(32) | 账单人ID（精确匹配） |
