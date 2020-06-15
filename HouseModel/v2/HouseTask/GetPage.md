@@ -60,6 +60,7 @@
 * HouseName (默认)
 * CustomerHouseId (默认)
 * CreateTime (默认)
+* CaptureTime (默认)
 * UploadTime (默认)
 * TaskState (默认)
 * UserComments (默认)
@@ -124,6 +125,7 @@
 | payload.rows[x].serviceType| Yes | String(255) | 服务类型 |
 | payload.rows[x].taskState| Yes | String(255) | 任务状态 |
 | payload.rows[x].uploadTime| Yes | String(255) | 上传时间 |
+| payload.rows[x].captureTime| Yes | String(255) | 拍摄时间，如果拍摄时间异常，会采用上传时间 |
 | payload.rows[x].userBalanceId| Yes | String(255) | 使用的余额ID |
 | payload.rows[x].userComments| Yes | String(255) | 用户备注 |
 | payload.rows[x].path| Yes | String(255) | 用户ID |
@@ -151,6 +153,7 @@
                 "rooms": 1,
                 "taskState": 50000,
                 "uploadTime": "2020-03-18T03:28:54",
+                "captureTime" : "2020-03-18T03:28:54",
                 "userComments": null,
                 "userId": "de2ffbb7787744248194120a76ec92ac",
                 "comments": null
@@ -167,6 +170,7 @@
                 "rooms": 1,
                 "taskState": 50000,
                 "uploadTime": "2020-03-17T09:26:53",
+                "captureTime" : "2020-03-18T03:28:54",
                 "userComments": null,
                 "userId": "de2ffbb7787744248194120a76ec92ac",
                 "comments": null
