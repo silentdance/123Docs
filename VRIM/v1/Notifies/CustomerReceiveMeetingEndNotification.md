@@ -58,7 +58,7 @@
 | 字段名  | 可空 | 数据类型 | 描述                                         |
 | ------- | ---- | -------- | -------------------------------------------- |
 | state   | No   | Int      | [返回状态](../Agreement/APIResponseState.md) |
-| message | No   | String   | 错误代码或Message                            |
+| mespayloadsage | No   | String   | 错误代码或Message                            |
 
 ## Schema 
 

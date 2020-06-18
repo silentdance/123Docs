@@ -37,6 +37,8 @@
 | user       | No   | string(max) | 该参与者的用户id           |
 | isTimeOut  | No   | bool        | 是否因为心跳超时导致的退出 |
 | isFirstOne | No   | bool        | 加入的是否是第一个用户     |
+| noResponse | Yes   | bool       | 呼叫方是否等等60秒后仍无人接听 |
+| meetingStatus | No   | int      | 0:会议未开始；1：进行中；2：已结束；3：无人接听；4：呼叫方主动取消 |
 
 
 # 正确响应
@@ -60,7 +62,7 @@
 | 字段名  | 可空 | 数据类型 | 描述                                         |
 | ------- | ---- | -------- | -------------------------------------------- |
 | state   | No   | Int      | [返回状态](../Agreement/APIResponseState.md) |
-| message | No   | String   | 错误代码或Message                            |
+| payload | No   | String   | 错误代码或Message                            |
 
 ## Schema 
 
