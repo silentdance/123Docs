@@ -27,7 +27,7 @@
 | 字段名 | 可空 | 数据类型 | 描述 |
 | ---- | ---- | ---- | ----|
 | state | No | String(128) | 制作任务的最终制作状态，（Finished，Cancel，Failed）|
-| panoramaPackage | Yes | String (4000) | 若制作成功此列为客户获取数据包的途径，参考客户下载123数据包的方式, 注意！一定不要用下载链接中的文件名作为转存的包的名字，123推送的下载地址文件名有可能会跟PackageId不一致。切记！切记！切记！ | 
+| panoramaPackage | Yes | String (4000) | 若制作成功此列为客户获取数据包的途径，参考客户下载123数据包的方式, `注意！一定不要用下载链接中的文件名作为转存的包的名字，123推送的下载地址文件名有可能会跟PackageId不一致。切记！切记！切记！` | 
 | fileHash | No | String(32) | 当下载方式为Zip时，值为数据包的MD5 Hash校验码，否则无此参数 | 
 | houseId | No | String(64) | 客户方的房源ID | 
 | packageId | No | String(128) | 数据包的ID |
