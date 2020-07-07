@@ -6,7 +6,7 @@
 URI
 ===
 正式环境：  
-https://webapi.123kanfang.com/v2/Authorization/RefreshToken
+https://webapi.123kanfang.com/v2/Authorization/RefreshToken  
 测试环境：  
 http://webapi.123kanfang.com:5000/v2/Authorization/RefreshToken
 
