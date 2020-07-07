@@ -8,7 +8,7 @@
 URI
 ===
 正式环境：  
-https://webapi.123kanfang.com/v2/Authorization/GetAccessToken
+https://webapi.123kanfang.com/v2/Authorization/GetAccessToken  
 测试环境：
 http://test.webapi.123kanfang.com:5000/v2/Authorization/GetAccessToken
  
@@ -37,6 +37,7 @@ GET
 |-----------|----------|--------------|--------------|
 | authKey   | No       | String       | 登录的用户名 |
 | authValue | No       | String       | 登录的密码   |
+| clientEdtion | Yes   | String       | 登录客户端的来源， 如果该已经配置的版本的登录限制，需要传特定的值以验证版本，如果是客户方服务器调用，可以传固定值ps_1.0.0, 即partner server 版本 1.0.0 |
 
 正确响应
 ========
