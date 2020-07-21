@@ -30,6 +30,7 @@
 | ---- | ---- | ---- | ----|
 | packageId | No | String | 模型数据包的packageId |
 | isFinished | No | bool | true：制作完成，false：无法制作 |
+| comments | Yes | String | 当无法制作时，可以记录无法制作的原因 |
 
 # 正确响应
 | 字段名 | 可空 | 数据类型 | 描述 |
