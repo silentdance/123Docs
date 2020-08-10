@@ -50,6 +50,7 @@ POST
 | packageId | Yes        | String(32) | 数据包id              |
 | communityName   | Yes        | boolean    | 房天下对应的小区名称 |
 | houseId   | No        | boolean    | 房天下对应的房源id |
+| purposeType   | No        | String    | 房源类型（House：住宅，Villa：别墅，Shop：商铺，Office：写字楼；默认House） |
 
  
 
