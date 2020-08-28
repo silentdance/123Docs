@@ -8,6 +8,7 @@
 * [提交房源制作完成](./FinishHouseTask.md) [可选]
 * [客户接收任务状态变更通知](./CustomerReceiveTaskStateChangeNotify.md) [可选]
 * [把模型委托给123制作](./AssignToVrtours3d.md)[可选]
+* [更新客户房源ID](./UpdateCustomerHouseId.md)[可选]
 
 ## 制作完成后[可选]
 * [指定客户审核结果](./CustomerAssignReviewResult.md) [可选]
