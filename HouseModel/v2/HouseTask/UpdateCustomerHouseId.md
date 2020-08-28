@@ -35,7 +35,9 @@
 | 字段名 | 可空 | 数据类型 | 描述 |
 | ---- | ---- | ---- | ----|
 | state | No | Int | [返回状态](../Agreement/APIResponseState.md) | 
-| payload | No | String | 成功或失败的字符串 |
+| payload | No | Object | 返回数据的载体 |
+| payload.packageId | No | String | 数据包ID |
+| paylaod.customerHouseId | No | String | 客户房源ID |
 
 
 ## Schema
