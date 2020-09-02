@@ -34,6 +34,8 @@
 | billOwnerId | Yes | String(32) | 账单人ID（精确匹配） |
 | serviceId | Yes | String(32) | 服务ID（精确匹配） |
 | packageId | Yes | String(64) | 数据包的ID，可以填写多个，多个可以使用同一个key不同的值，例如packageId=xxxxxx&packageId=xxxxxxx | 
+| exceptPackageIds | Yes | String | 需要排除出结果集之外数据包的ID，可以填写多个，多个可以使用同一个key不同的值，例如exceptPackageIds=xxxxxx&exceptPackageIds=xxxxxxx | 
+| commaSeparatedExceptPackageIds | Yes | String | 需要排除出结果集之外数据包的ID，与exceptPackageIds功能一致,主要是满足一些编程语言网络框架的限制，优先级比exceptPackageIds要低，可以填写多个(不能超过50个)，多个值之间用,分割。 | 
 | status | Yes | Int | 房源的状态，可以填写多个，多个可以使用同一个key不同的值，例如status=0&status=10000 |
 | stateStart | Yes | Int | 和stateEnd配合使用，限定查询任务的状态的最小值 |
 | stateEnd | Yes | Int | 和stateStart配合使用, 限定查询任务的状态的最大值 |
