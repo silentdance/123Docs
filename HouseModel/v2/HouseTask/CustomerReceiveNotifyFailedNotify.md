@@ -10,7 +10,7 @@
 
 
 # 身份认证
-无
+[加固接口的签名验证](../Agreement/StrongValidation.md)
 
 
 # 请求头
