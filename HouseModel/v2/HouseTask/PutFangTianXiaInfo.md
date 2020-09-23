@@ -17,7 +17,7 @@ URI
 Method
 ======
 
-POST
+POST with form
 
  
 
@@ -93,10 +93,11 @@ POST
 
 示例
 
-> {
->
-> \"state\": 401,
->
-> \"payload\": \"error detail\"
->
-> }
+``` json
+{
+    "state": 200,
+    "payload": {
+        "additionalData": "\"{\\\"communityName\\\":\\\"九龙仓时代上院(别墅)\\\",\\\"houseId\\\":\\\"FY-20-26133\\\",\\\"purposeType\\\":\\\"Villa\\\"}\""
+    }
+}
+```
