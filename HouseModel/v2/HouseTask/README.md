@@ -23,7 +23,7 @@
 * [客户接收数据包下载通知](./CustomerReceivePackageDownloadNotify.md)
 
 ## 推送安居客[可选]
-* [推送前设置安居客编号](./PutAnjukeBianHao.md) [可选]
+* 推送前设置安居客编号 [可选]
 * 推送安居客的结果回调 [可选]
 
 ## 推送房天下[可选]
