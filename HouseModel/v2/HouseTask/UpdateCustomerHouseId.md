@@ -30,6 +30,7 @@
 | ---- | ---- | ---- | ----|
 | packageId | Yes | String | 模型数据包的packageId, 注意！与houseTaskId互斥，如果两个参数都传了，会优先使用HouseTaskId。 |
 | houseTaskId | Yes | String | 模型数据包的主键Id，注意！与packageId互斥，如果两个参数都传了，会优先使用HouseTaskId。 |
+| customerHouseId | No | String | 最新的客户房源ID |
 
 # 正确响应
 | 字段名 | 可空 | 数据类型 | 描述 |
