@@ -24,10 +24,7 @@ POST with Form
 
 身份认证
 ========
-
-[加固接口的签名验证](../Agreement/StrongValidat.md)
-
- 
+[加固接口的签名验证](../Agreement/StrongValidation.md)
 
 请求头
 ======
