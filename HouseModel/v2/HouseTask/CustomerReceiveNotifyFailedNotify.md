@@ -22,14 +22,18 @@
 # 请求参数
 | 字段名 | 可空 | 数据类型 | 描述 |
 | ---- | ---- | ---- | ----|
-| houseName | No | String(128) | 房源名 |
-| customerHouseId | Yes | String (32) | 客户方的内部房源ID | 
-| packageId | No | String(32) | 123的数据包ID | 
-| notifyConfigId | No | String(32) | 通知配置ID | 
-| notifyType | No | String(32) | 通知类型 |
+| notifyId | No | String(32) | 当前推送的推送任务ID |
+| notifyConfigId | No | String(32) | 当此推送使用的推送配置ID | 
+| notifyType | No | String(32) | 通知类型 | 
 | notifyResult | No | Enum(int) | 当前的通知结果,0： 未推送，1：推送成功，2，推送失败（客户方拒绝请求），3:推送异常（因数据或程序导致推送异常） | 
 | param | Yes | string(22) | 如果是在网络请求后接通后，客户方服务器发生了异常，此时会记录请求参数。 | 
 | response | Yes | String(1024) | 用来存放失败的具体原因 |  
+| cityId | Yes | String(32) | 当前房源的城市ID，如果有的话 | 
+| packageId | No | String(64) | 数据包ID | 
+| houseId | Yes | String(32) | 客户方房源ID | 
+| state | Yes | int | 房源状态的枚举 | 
+
+注：还可以根据客户方需要配置额外的参数，需要跟123开发进行对接。
 
 
 # 响应
