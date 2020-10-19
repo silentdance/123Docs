@@ -28,9 +28,9 @@
 | 字段名 | 可空 | 数据类型 | 描述 |
 | ---- | ---- | ---- | ----|
 | userName | Yes | String(32) | 摄影师的用户名（模糊匹配） |
-| houseName | Yes | String(32) | 房源名（模糊匹配） |
+| houseName | Yes | String(32) | 房源名（模糊匹配）（低性能） |
 | customerHouseId | Yes | String(32) | 客户房源ID（精确匹配） |
-| searchKey | Yes | String(32) | 按模糊搜索的方式匹配客户房源ID或房源名 |
+| searchKey | Yes | string(32) | 根据客户房源ID，客户的房源名进行模糊匹配（低性能） |
 | userId | Yes | String(32) | 摄影师ID（精确匹配） |
 | billOwnerId | Yes | String(32) | 账单人ID（精确匹配） |
 | serviceId | Yes | String(32) | 服务ID（精确匹配） |
