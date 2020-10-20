@@ -85,6 +85,7 @@
 * HouseType
 * PackageVersion
 * Domain
+* WaitingSignal
 * Comments (低性能)
 * NotifyResult (低性能)
 * UserName (低性能)
@@ -133,6 +134,7 @@
 | payload.rows[x].userBalanceId| Yes | String(255) | 使用的余额ID |
 | payload.rows[x].userComments| Yes | String(255) | 用户备注 |
 | payload.rows[x].path| Yes | String(255) | 用户ID |
+| payload.rows[x].waitingSignal| Yes | long | 用于标识是否在等待某个事件，为0时代表没有等待任何事件。 |
 | payload.rows[x].userId| Yes | String(255) | 用户ID |
 | payload.rows[x].userName| Yes | String(255) | 用户名 |
 | payload.rows[x].comments| Yes | String(255) | 系统备注 |
