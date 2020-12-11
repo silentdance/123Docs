@@ -1,16 +1,14 @@
-﻿# 功能介绍
-**本来由客户制作的房子可以委托给123制作。**
+# 功能介绍
+**B端客户同步客户系统内的账户至123看房，注意此接口必须是组织账号才能调用，创建用户的规则是 组织代码-用户名**
  
 
 # URI
-生产：https://webapi.123kanfang.com/v2/houseTask/AssignToVrtours3d  
-测试：https://webapi-test.123kanfang.com:5000/v2/houseTask/AssignToVrtours3d
-
+生产：https://webapi.123kanfang.com/v2/user/CreateSubAccount  
+测试：https://webapi-test.123kanfang.com:5000/v2/user/CreateSubAccount
  
 # Method
 **Post with form**
 
- 
 # 身份认证
 | 位置| 参数名 | 可空 | 参数类型 | 描述 |
 | ------ | ------ | ------ | ------ | ------ |
@@ -24,36 +22,37 @@
 | ---- | ---- | ---- | ----|
 | Content-Type | No | String | 值应为：application/x-www-form-urlencoded |
 | Authorization | Yes | String | 身份认证的Token, 在身份认证表中任意位置传输均可。| 
-
  
 
-请求参数
+# 请求参数
 ========
 
 | 参数        | 可空 | 参数类型   | 描述             |
 |-------------|------|------------|------------------|
-| houseTaskId | Yes   | String(32) | 房源拼接任务的ID |
-|  packageId  | Yes   | String(64) | 房源数据包ID    |
-
-上面两个参数都用于唯一标识房源，可传任意一个，若都传以houseTaskId为准
-
+| subAccount  | Yes   | String(64) | 账户名    |
+| parentAccount  | Yes   | String(64) | 房源数据包ID    |
  
 
-正确响应
+# 正确响应
 ========
 
 | 字段名 | 可空 | 数据类型 | 描述  |
-|------------|----------|--------------|----------|
-| state      | No       | Int          | [返回状态](../Agreement/APIResponseState.md) |
-| payload    | No       | String       | OK |
+|------------           |----------|--------------  |----------|
+| state                 | No       | Int            | [返回状态](../Agreement/APIResponseState.md) |
+| payload               | No       | Object         | OK |
+| payload.userId        | No       | String(32)     | 用户ID |
+| payload.userName      | No       | String(32)     | 账户名，实际创建的账户名会是 组织代码-账户名的格式，例如：组织代码是 TG，传入的subAccount参数是TestAccount, 则实际的用户名是 TG-TestAccount. |
+| payload.regionName    | No       | String(32)     | 区域名 |
+| payload.parentId      | No       | String(32)     | 父账户ID |
+| payload.createTime    | No       | String(32)     | 创建时间 |
 
  
-示例
+# 示例
 
 ``` json
 {
-"state": 200,
-"payload": "OK"
+    "state": 200,
+    "payload": "OK"
 }
 ```
  
