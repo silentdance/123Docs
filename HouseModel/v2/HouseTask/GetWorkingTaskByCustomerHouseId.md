@@ -44,10 +44,12 @@
 ```json
 {
     "state": 200,
-    "payload":  {
-        "id": "3lNlZHxVEku1HoT1qdrAng",
-        "state": 0
-    }
+    "payload":  [
+        {
+            "id": "3lNlZHxVEku1HoT1qdrAng",
+            "state": 0
+        }
+    ]
 }
 ```
 
