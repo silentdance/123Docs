@@ -3,7 +3,7 @@
 
 # URI
 生产：https://webapi.123kanfang.com/v2/houseTask/RetireHouseTask  
-测试：http://test.webapi.123kanfang.com:5000/v2/houseTask/RetireHouseTask
+测试：https://webapi-test.123kanfang.com/v2/houseTask/RetireHouseTask
 
 
 # Method
