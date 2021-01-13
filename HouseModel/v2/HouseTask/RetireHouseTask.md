@@ -29,6 +29,7 @@
 | 字段名 | 可空 | 数据类型 | 描述 |
 | ---- | ---- | ---- | ----|
 | packageId | No | String | 模型数据包的packageId |
+| comment | Yes | String | 废弃时的备注 |
 
 # 正确响应
 | 字段名 | 可空 | 数据类型 | 描述 |
