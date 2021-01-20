@@ -31,7 +31,7 @@
 |-------------|------|------------|------------------|
 | subAccount  | Yes   | String(64) | 账户名    |
 | parentAccount  | Yes   | String(64) | 房源数据包ID    |
-| accountType | Yes | String(16) |账户类型（Group 组；Admin 管理员；Staff 制作人）|
+| accountType | Yes | String(16) |账户类型（Group 组；Admin 管理员；Staff 制作人）默认是Staff|
 
 # 正确响应
 ========
