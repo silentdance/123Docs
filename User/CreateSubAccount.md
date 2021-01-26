@@ -15,14 +15,12 @@
 | Header | Authorization | Yes | String | 身份认证的Token，列表中任选一个位置传递此参数，此参数为必填项。|
 | FormBody [x-www-form-urlencoded] | Authorization | Yes | String | 身份认证的Token，列表中任选一个位置传递此参数，此参数为必填项。|
 | Cookie | Authorization | Yes | String | 身份认证的Token，列表中任选一个位置传递此参数，此参数为必填项。|
- 
 
 # 请求头
 | 参数 | 可空 | 参数类型 | 描述 |
 | ---- | ---- | ---- | ----|
 | Content-Type | No | String | 值应为：application/x-www-form-urlencoded |
 | Authorization | Yes | String | 身份认证的Token, 在身份认证表中任意位置传输均可。| 
- 
 
 # 请求参数
 ========
@@ -32,6 +30,7 @@
 | subAccount  | Yes   | String(64) | 账户名    |
 | parentAccount  | Yes   | String(64) | 房源数据包ID    |
 | accountType | Yes | String(16) |账户类型（Group 组；Admin 管理员；Staff 制作人）默认是Staff|
+| password | Yes | String(32) | 账户密码，如果不传默认是123456 |
 
 # 正确响应
 ========
