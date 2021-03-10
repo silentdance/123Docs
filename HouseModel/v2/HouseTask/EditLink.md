@@ -3,14 +3,14 @@
 
 # 编辑器地址
 生产：
-http://www.123kanfang.com/VRHouseOnline/123kanfang31/client.html
+http://webresource.123kanfang.com/studioClient4-1/client.html
 ?noCache=true
 &hid={hid}
 &bucket=vrhouse
 &domain=//vrhouse.oss-cn-shanghai.aliyuncs.com/
 &token={token}  
 
-测试：http://webresource.123kanfang.com/studioClient-test/client.html
+测试：http://webresource.123kanfang.com/studioClient4-1-test/client.html
 ?noCache=true
 &hid={hid}
 &floorPlanStyles={floorPlanStyles}
