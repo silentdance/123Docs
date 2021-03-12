@@ -9,8 +9,8 @@ URI
 ===
 正式环境：  
 https://webapi.123kanfang.com/v2/Authorization/GetAccessToken  
-测试环境：
-http://test.webapi.123kanfang.com:5000/v2/Authorization/GetAccessToken
+测试环境：  
+http://webapi-test.123kanfang.com/v2/Authorization/GetAccessToken
  
 
 Method
