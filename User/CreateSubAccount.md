@@ -28,7 +28,7 @@
 | 参数        | 可空 | 参数类型   | 描述             |
 |-------------|------|------------|------------------|
 | subAccount  | Yes   | String(64) | 账户名    |
-| parentAccount  | Yes   | String(64) | 房源数据包ID    |
+| parentAccount  | Yes   | String(64) | 父账户的名字    |
 | accountType | Yes | String(16) |账户类型（Group 组；Admin 管理员；Staff 制作人）默认是Staff|
 | password | Yes | String(32) | 账户密码，如果不传默认是123456 |
 
