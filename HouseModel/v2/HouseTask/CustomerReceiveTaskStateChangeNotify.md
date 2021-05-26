@@ -46,9 +46,6 @@ POST with Form
 | houseTaskId | No   | String(32)   | HouseTask的ID  |
 | houseId     | No   | String (64)  | 客户方的房源ID |
 | packageId   | No   | String (128) | 数据包的ID     |
-| userId      | No   | String(32)   | 用户id         |
-| userName    | No   | String       | 用户名         |
-
  
 
 正确响应
