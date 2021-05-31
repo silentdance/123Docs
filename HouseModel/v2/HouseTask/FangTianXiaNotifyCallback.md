@@ -47,8 +47,8 @@ POST with form
 
 | 参数      | 可空 | 参数类型     | 描述                                        |
 |-----------|------|--------------|---------------------------------------------|
-| houseId   | No   | String (64)  | 客户内网的houseId                           |
-| houseType | No   | String (32)  | 客户房源类型，值为客户内网的房源类型的值    |
+| houseId   | Yes   | String (64)  | 客户内网的houseId                           |
+| houseType | Yes   | String (32)  | 客户房源类型，值为客户内网的房源类型的值    |
 | packageId | No   | String (128) | 房源数据包ID                                |
 | status    | No   | Int          | 1：通知成功，2：通知失败，3：通知时发生错误 |
 | payload   | No   | String (max) | 通知时房天下返回的具体内容                  |
